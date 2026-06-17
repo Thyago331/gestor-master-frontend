@@ -1,0 +1,32 @@
+{
+  "name": "gestor-master-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Web frontend for Gestor Master.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "lint": "eslint \"src/**/*.{ts,tsx}\""
+  },
+  "dependencies": {
+    "@fontsource/inter": "^5.2.8",
+    "@fontsource/jetbrains-mono": "^5.2.8",
+    "@fontsource/press-start-2p": "^5.2.7",
+    "lucide-react": "^0.468.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^7.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.17",
+    "@types/react-dom": "^18.3.5",
+    "@typescript-eslint/eslint-plugin": "^8.18.1",
+    "@typescript-eslint/parser": "^8.18.1",
+    "@vitejs/plugin-react": "^6.0.2",
+    "eslint": "^9.17.0",
+    "typescript": "^5.7.2",
+    "vite": "^8.0.16"
+  }
+}
